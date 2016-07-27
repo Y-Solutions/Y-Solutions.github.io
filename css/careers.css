@@ -1,0 +1,54 @@
+#header{
+	padding-top: 30px;
+	min-height: 24vh;
+	background-color: #fafafa;
+	border-bottom: 1px solid #ccc;
+}
+
+h4 strong{
+	font-size: 1.2em;
+}
+p{
+	font-size: 18px;
+	margin-top: 5px;
+}
+#desc{
+	min-height: 76vh;
+	height: auto;
+}
+button{
+	margin: 15px 0px !important;
+	height: 50px;
+	background-color: green;
+	color: white !important;
+	border: 0;
+	border-radius: 3px;
+}
+#header h4{
+	width: 20%;
+	font-size: 1em;
+}
+.popup{
+	padding:30px 67px;
+	width:100vw;
+	height:100vh;
+	background-color: white;
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.popup.pop{
+	display: block;
+}
+.popup form{
+	width:60%;
+	height:100%;
+}
+.popup form *{
+	margin-top: 30px; 
+}
+.popup form input,.popup form textarea,.popup form select{
+	width: 100%;
+}
