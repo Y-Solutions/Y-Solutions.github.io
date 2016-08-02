@@ -29,7 +29,7 @@
     });
      $("#career-owl").owlCarousel({
       autoPlay: 7000,
-      items : 3,
+      items : 1,
       itemsDesktop : [1199,5],
       itemsDesktopSmall : [979,5],
     });

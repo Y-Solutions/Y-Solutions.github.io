@@ -615,14 +615,15 @@ a.btn{
 #About h3{
 	border-radius: 0;
 	background-color: transparent !important;
-	width: 250px;
+	width: 350px;
 	height: 150px;
 	float: left;
 	font-size: 26px;
 	color:#333;
+
 }
 #About h3 img{
-	height: 50px;
+	height: 70px;
 	position: relative;
 	left:50%;
 	transform: translateX(-50%);
