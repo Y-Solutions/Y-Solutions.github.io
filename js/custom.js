@@ -21,6 +21,18 @@
       itemsDesktop : [1199,5],
       itemsDesktopSmall : [979,5],
     });
+     $("#about-owl").owlCarousel({
+      autoPlay: 7000,
+      items : 1,
+      itemsDesktop : [1199,1],
+      itemsDesktopSmall : [979,1],
+    });
+     $("#career-owl").owlCarousel({
+      autoPlay: 7000,
+      items : 3,
+      itemsDesktop : [1199,5],
+      itemsDesktopSmall : [979,5],
+    });
  /* Hide mobile menu after clicking on a link
     -----------------------------------------------*/
     $('.navbar-collapse a').click(function(){
