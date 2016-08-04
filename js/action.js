@@ -1,5 +1,5 @@
 
-var contact=function(mail,service,desc){
+var sales=function(mail,service,desc){
 	var title = document.querySelector('#sales *[name="service"]');
 	var desc = document.querySelector('#sales *[name="desc"]');
 	var body = '<p style="font-size:16px"><b>Type: </b>Contact sales<br><b>Mail: </b>'+mail+'<br><b>Service: </b>'+service+'<br><b>Description: </b>'+desc; 
@@ -34,7 +34,7 @@ var send = function(body,subject){
 	var data = JSON.stringify({
   "Body": body,
   "Subject": subject,
-  "TO": "hassanazzam95@gmail.com"
+  "TO": "amr.azzam@locadifferent.com"
 });
 
 var xhr = new XMLHttpRequest();
