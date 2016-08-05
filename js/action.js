@@ -1,12 +1,13 @@
 
-var contact=function(mail,service,desc){
-	var title = document.querySelector('#sales *[name="service"]').value;
+var contact=function(){
+	var mail = document.querySelector('#sales *[name="mail"]').value;
+	var service = document.querySelector('#sales *[name="service"]').value;
 	var desc = document.querySelector('#sales *[name="desc"]').value;
 	var body = '<p style="font-size:16px"><b>Type: </b>Contact sales<br><b>Mail: </b>'+mail+'<br><b>Service: </b>'+service+'<br><b>Description: </b>'+desc; 
 	send(body,"[locadifferent][Contact]");
 }
 
-var opinion=function(mail,title,desc){
+var opinion=function(){
 	var mail = document.querySelector('#opinion *[name="mail"]').value;
 	var title = document.querySelector('#opinion *[name="title"]').value;
 	var desc = document.querySelector('#opinion *[name="desc"]').value;
