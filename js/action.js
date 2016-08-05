@@ -35,7 +35,7 @@ var send = function(body,subject){
 	var data = JSON.stringify({
   "Body": body,
   "Subject": subject,
-  "TO": "hassanazzam95@gmail.com"
+  "TO": "amr.azzam@locadifferent.com"
 });
 
 var xhr = new XMLHttpRequest();
